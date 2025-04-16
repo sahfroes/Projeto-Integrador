@@ -10,5 +10,4 @@ O sistema desenvolvido visa fornecer uma plataforma abrangente para a assessoria
 Ferramentas utilziadas: Html, Css e Bootstrap
 
 link do site: https://vitinho455.github.io/Projeto-Integrador-/
-link do site para teste: 
-https://sahfroes.github.io/Projeto-Integrador/
+link do site para teste: https://sahfroes.github.io/Projeto-Integrador/
