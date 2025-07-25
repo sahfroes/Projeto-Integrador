@@ -55,6 +55,7 @@ header img {
     font-weight: bold;
 }
 
+<<<<<<< HEAD
 .especialidades {
 background-color: #1A2746;
 color: rgb(255, 255, 255);
@@ -91,6 +92,12 @@ margin: 40px auto;
 }
 
 
+=======
+.realizamos {
+
+    margin-top: 20px;
+}
+>>>>>>> d230094e8f3e580ee006f7ded90e3a0e6b80776c
 
 .assessoria {
 
