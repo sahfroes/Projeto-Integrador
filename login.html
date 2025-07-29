@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+    <link rel="stylesheet" href="login.css">
+   
+<body>
+   <header class="top-bar">
+    <span class="back-arrow">&#x2039;</span>
+    <h1>Login</h1>
+  </header>
+
+  <form class="form-container" onsubmit="return validarLogin()">
+    <div class="input-group">
+      <span class="icon">✉️</span>
+      <input type="email" id="email" placeholder="Email" required>
+    </div>
+
+    <div class="input-group">
+      <span class="icon">🔒</span>
+      <input type="password" id="senha" placeholder="Senha" required>
+      <span class="toggle" onclick="toggleSenha('senha')">👁️</span>
+    </div>
+
+    <button type="submit" class="botao">Entrar</button>
+
+    <p class="cadastro-link">
+      Ainda não tem conta? <a href="cadastro.html">Cadastre-se</a>
+    </p>
+  </form>
+
+  <script src="login.js"></script>
+
+</body>
+</html>
