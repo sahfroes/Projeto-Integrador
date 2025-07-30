@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="cadastrar.css" />
+  <title>Cadastro</title>
+</head>
+<body>
+  <header class="top-bar">
+    <a href="login.html" class="back-button">
+      <span class="back-arrow">&#x2039;</span>
+    </a>
+    <h1>Cadastro</h1>
+  </header>
+
+  <p class="descricao">
+    Para ser nosso cliente basta preencher corretamente esse formulário abaixo com os dados cadastrais.
+  </p>
+
+  <form id="formCadastro" class="formulario" action="cadastrar" method="POST">
+    <div class="campo">
+      <input type="text" id="nome" name="nome" placeholder="Nome Completo" required />
+    </div>
+
+    <div class="campo">
+      <input type="email" id="email" name="email" placeholder="Email" required />
+    </div>
+
+    <div class="campo">
+      <input type="password" id="senha" name="senha" placeholder="Senha" required />
+    </div>
+
+    <div class="campo">
+      <input type="password" id="confirmar" name="confirmar" placeholder="Confirmar Senha" required />
+    </div>
+
+    <div class="termos">
+      <input type="radio" checked disabled />
+      <span>Ao preencher o formulário acima você concorda com os nossos <a href="#">Termos de uso</a> e nossa <a href="#">Política de Privacidade</a>.</span>
+    </div>
+
+    <button type="button" class="botao" onclick="confirmarDados()">Cadastre-se</button>
+    <a href="login.html" class="temConta">Já tenho conta</a>
+  </form>
+
+  <script>
+    function confirmarDados() {
+      const nome = document.getElementById('nome').value;
+      const email = document.getElementById('email').value;
+
+      const mensagem = `Você confirma os seguintes dados?\n\nNome: ${nome}\nEmail: ${email}`;
+
+      if (confirm(mensagem)) {
+        alert("Dados confirmados! Enviando...");
+        document.getElementById("formCadastro").submit();
+      } else {
+        alert("Confirmação cancelada.");
+      }
+    }
+  </script>
+</body>
+</html>
