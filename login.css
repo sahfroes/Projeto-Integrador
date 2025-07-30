@@ -24,7 +24,9 @@ body {
 .back-arrow {
   font-size: 2rem;
   cursor: pointer;
+
   color: #fff;
+
 }
 
 .form-container {
