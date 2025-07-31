@@ -1,0 +1,85 @@
+body {
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  background: #f7f7f7;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 22px;
+  color: #333;
+    
+}
+
+p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #003d99;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #002a70;
+}
+
+
+/* topo.css */
+.top-bar {
+  background-color: #172544; /* azul escuro */
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.voltar {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.titulo {
+  font-size: 20px;
+}
+
