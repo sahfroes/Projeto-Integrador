@@ -2,7 +2,7 @@
 
 ## Descrição do Projeto
 
-Este projeto consiste em um sistema web completo, desenvolvido para uma assessoria de eventos.
+Este projeto consiste em um sistema web completo, desenvolvido para uma assessoria de eventos corporativos.
 O objetivo principal é fornecer uma plataforma robusta e intuitiva que facilite a interação entre a empresa e seus clientes.
 
 **Principais funcionalidades:**
@@ -32,8 +32,6 @@ O site está hospedado no GitHub Pages. Você pode acessá-lo e interagir com as
 [https://sahfroes.github.io/Projeto-Integrador/](https://sahfroes.github.io/Projeto-Integrador/)
 
 ## Integrantes
-
-Este projeto foi um esforço colaborativo. Agradecemos a dedicação de todos os membros da equipe:
 
 * Lorrane Medeiros Lima
 * Isabelle Cristina Nunes Silva
