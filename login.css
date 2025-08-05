@@ -7,11 +7,16 @@ body {
 }
 
 .top-bar {
-  background-color: #17233D;
-  color: #fff;
-  padding: 1rem;
+
+  background-color: #172544; /* azul escuro */
+  color: white;
   display: flex;
   align-items: center;
+  padding: 15px 20px;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .top-bar h1 {
@@ -28,6 +33,15 @@ body {
   color: #fff;
 
 }
+
+.voltar {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+
 
 .form-container {
   max-width: 350px;

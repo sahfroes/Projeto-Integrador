@@ -1,0 +1,205 @@
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+   margin: 0;
+    padding: 0;
+}
+
+body {
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color: #152947;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+header button#voltarBtn {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+header h1 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+/* Formulário */
+main {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+form#Formulario_do_Evento {
+   background-color: #f1f1f1;
+    border-radius: 15px;
+    width: 650px;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column; /* Organiza os itens em coluna */
+    gap: 2rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+.form-container {
+    display: flex;
+    gap: 2rem;
+    width: 100%;
+}
+
+.form-content {
+    display: flex;
+    gap: 2rem;
+}
+
+
+
+/* Coluna esquerda: informações do evento */
+.Informacoes-do-evento {
+  flex: 1.5;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Labels e inputs */
+.Informacoes-do-evento label {
+  font-size: 0.9rem;
+  margin-bottom: 0.3rem;
+  color: #555;
+}
+
+.Informacoes-do-evento input[type="text"],
+.Informacoes-do-evento input[type="date"],
+.Informacoes-do-evento textarea {
+  background-color: #ddd;
+  border: none;
+  border-radius: 15px;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  color: #444;
+  outline: none;
+}
+
+.Informacoes-do-evento input[type="text"]::placeholder,
+.Informacoes-do-evento textarea::placeholder {
+  color: #bbb;
+}
+
+.Informacoes-do-evento textarea {
+  resize: none;
+  height: 110px;
+  border-radius: 15px;
+}
+
+/* Coluna direita: fotos */
+.Adicao_de_fotos {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  align-items: flex-start;
+}
+
+.Adicao_de_fotos label {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.foto-upload {
+  width: 140px;
+  height: 110px;
+  background-color: #ddd;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  color: #555;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 0 0 8px rgb(0 0 0 / 0.1);
+  transition: background-color 0.3s ease;
+}
+
+.foto-upload:hover {
+  background-color: #ccc;
+}
+
+/* Botão enviar centralizado abaixo das colunas */
+.Botao_de_enviar {
+    display: flex;
+    justify-content: center; /* Alinha o conteúdo à direita */ /*muda o lugar do botão então tome cuidado */
+    width: 100%; /* Garante que o container ocupe a largura total do form */
+    padding-top: 2rem;
+}
+
+.Botao_de_enviar button {
+    background-color: #004b85;
+    color: white;
+    border: none;
+    padding: 0.6rem 3rem;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+
+.Botao_de_enviar button:hover {
+  background-color: #003566;
+}
+
+.top-bar {
+
+  background-color: #172544; /* azul escuro */
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.top-bar h1 {
+  flex: 1;
+  text-align: center;
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+
+
+.back-arrow {
+  font-size: 2rem;
+  cursor: pointer;
+
+  color: #fff;
+
+}
+
+.voltar {
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
