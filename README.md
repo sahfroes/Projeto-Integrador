@@ -22,8 +22,7 @@ O projeto foi construído utilizando as seguintes tecnologias:
 * **Bootstrap:** Utilizado para garantir um design responsivo e compatível com diversos dispositivos, além de acelerar o desenvolvimento.
 
 ### Banco de Dados:
-* **DBeaver (interface gráfica):** Ferramenta utilizada para gerenciar e visualizar o banco de dados.
-* ** MariaDb ** Utilizado para armazenar os dados dos hábitos, status de conclusão e observações feitas pelo usuário.
+* **Mysql:** Para ter o controle de usuário cadastrado.
 
 ## Acesse o Site
 
