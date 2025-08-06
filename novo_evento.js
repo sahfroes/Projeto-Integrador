@@ -1,10 +1,6 @@
 const fotoInput = document.getElementById('foto');
 const fotoUploadDiv = document.querySelector('.foto-upload');
 
-fotoUploadDiv.addEventListener('click', () => {
-  fotoInput.click();
-});
-
 fotoInput.addEventListener('change', () => {
   if (fotoInput.files.length > 0) {
     // Mostrar nome do arquivo no lugar do "+"
