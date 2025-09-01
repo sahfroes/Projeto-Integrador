@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novo evento</title>
+    <link rel="stylesheet" href="novo_evento.css">
+</head>
+
+<body>
+    
+   <header class="top-bar">
+    <a href="index.html" class="voltar">
+  <span class="back-arrow">&#x2039;</span>
+    </a>
+    <h1>Novo evento</h1>
+  </header>
+
+<main>
+    <form id="Formulario_do_Evento">
+        <div class="Informacoes-do-evento">
+        <label for="nome">Nome do evento:</label>
+        <input type="text" id="titulo" name="titulo" placeholder="nome" required>
+
+
+        <label for="data">Data:</label>
+        <input type="date" id="data" name="data" required>
+
+        
+        <label for="descricao">Descrição: </label>
+        <textarea id="descricao" name="descricao" placeholder="Digite aqui sobre o evento..."></textarea>
+        </div>
+
+         <div class="Adicao_de_fotos">
+        <label for="foto">Fotos:</label>
+        <div class="foto-upload" onclick="document.getElementById('foto').click();">
+          <span>+</span>
+        </div>
+        <input type="file" id="foto" name="foto" accept="image/*" style="display:none;">
+      </div>
+
+  <div class="Botao_de_enviar">
+        <button type="submit" form="Formulario_do_Evento">Enviar</button>
+    </div>
+
+
+    </form>
+
+
+</main>
+
+<script src="novo_evento.js"></script>
+
+</body>
+
+</html>

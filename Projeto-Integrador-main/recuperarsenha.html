@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recuperar senha</title>
+    <link rel="stylesheet" href="recuperarsenha.css">
+</head>
+<body>
+
+<header>
+    <!-- topo.html -->
+<div class="top-bar">
+  <a href="login.html" class="voltar">&#x276E;</a>
+  <span class="titulo">Entrar</span>
+</div>
+
+</header>
+
+ 
+
+    <div class="form-container">
+   
+      <h1>Recuperar senha</h1>
+    <p>Por favor, informe seu e-mail cadastrado para receber o link de redefinição da senha</p>
+
+    <form id="recuperarsenhaForm" action="recuperarsenha" method="POST" onsubmit="return validarEmail()">
+      <div class="input-group">
+        <input type="email" id="email" name="email" placeholder="Digite seu email" required />
+      </div>
+       <button type="button" onclick="confirmarEmail()">Enviar</button>
+    </form>
+  </div>
+
+  <script>
+  function validarEmail(email) {
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return emailRegex.test(email);
+  }
+
+  function confirmarEmail() {
+    const email = document.getElementById('email').value;
+
+    if (!validarEmail(email)) {
+      alert("Por favor, insira um e-mail válido.");
+      return false;
+    }
+
+    const mensagem = `Você confirma os seguintes dados?\nEmail: ${email}`;
+    
+    if (confirm(mensagem)) {
+      alert("Dado confirmado! Enviando...");
+      window.location.href = "login.html"; // Redireciona para a página de login após confirmação
+    } else {
+      alert("Confirmação cancelada.");
+    }
+  }
+</script>
+
+
+</body>
+</html>
