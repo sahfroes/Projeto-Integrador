@@ -44,5 +44,5 @@ Estamos em constante aprimoramento e planejamos implementar as seguintes melhori
 * Refinar a validação do formulário de contato para uma melhor experiência do usuário.
 * Adicionar uma seção de depoimentos de clientes para construir credibilidade.
 * Aprimorar a galeria de portfólio com filtros e uma visualização mais interativa (lightbox).
-* Implementar um botão "Voltar ao Topo" para facilitar a navegação em páginas mais longas.
+* Fazer o acesso restrito para o cliente fazer as devidas alterações
 
