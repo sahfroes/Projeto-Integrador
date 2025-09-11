@@ -35,7 +35,7 @@ O site está hospedado no GitHub Pages. Você pode acessá-lo e interagir com as
 * Lorrane Medeiros Lima
 * Isabelle Cristina Nunes Silva
 * Sarah Fróes de Barros Leite
-* Mariana
+* Mariana Medeiros 
 
 ## Próximos Passos e Melhorias
 
