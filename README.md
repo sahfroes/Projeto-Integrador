@@ -32,7 +32,7 @@ Ainda estamos analisando a melhor linguagem para realizar o tramite do acesso re
 
 O site está hospedado no GitHub Pages. Você pode acessá-lo e interagir com as funcionalidades através do link:
 
-[https://sahfroes.github.io/Projeto-Integrador/](https://sahfroes.github.io/Projeto-Integrador/)
+[https://sahfroes.github.io/Projeto-Integrador/] [https://github.com/sahfroes/Projeto-Integrador.git]
 
 ## Integrantes
 
