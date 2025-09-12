@@ -21,6 +21,10 @@ O projeto foi construído utilizando as seguintes tecnologias:
 * **JavaScript:** Para adicionar interatividade e dinamismo à página, como validação de formulários e animações.
 * **Bootstrap:** Utilizado para garantir um design responsivo e compatível com diversos dispositivos, além de acelerar o desenvolvimento.
 
+### Back-end:
+Ainda estamos analisando a melhor linguagem para realizar o tramite do acesso restrito do usuário 
+  
+
 ### Banco de Dados:
 * **Mysql:** Para ter o controle de usuário cadastrado.
 
